@@ -3,7 +3,7 @@
  *  Módulo: Se modulariza la implementación de todas las funciones
  *          para procesar BMP's.
  *  Autor:  Martín Aguilar
- *              
+ *
  * ********************************************************************/
 
 
@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include <bmp.h>
+#include "../headers/bmp.h"
 #include <stdbool.h>
 #include <math.h>
 
@@ -651,7 +651,7 @@ void negativo( const bmp_t *const imagen )
 }
 
 /*
- * Devuelve el indice de un color desde la paleta, o el que más 
+ * Devuelve el indice de un color desde la paleta, o el que más
  * se le parezca.
  */
 uint8_t coloresde_paleta( const bmp_t *imagen, const bmpcolor_t color )
@@ -899,7 +899,7 @@ void addlineash( uint32_t ancho,
 
 /*
  * Devuelve el color promedio de los píxeles ubicados en un radio de
- * RADIO desde el pixel ubicado en [X][Y] 
+ * RADIO desde el pixel ubicado en [X][Y]
  */
 bmpcolor_t promediopixels( bmpcolor_t **pixels,
                            const int32_t ancho,

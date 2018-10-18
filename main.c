@@ -1,13 +1,13 @@
 /***********************************************************************
- * 
- * Módulo: Se modulariza la correción de todos los parámetros y luego 
+ *
+ * Módulo: Se modulariza la correción de todos los parámetros y luego
  *         el procesamiento
  * Autor:  Martín Aguilar
- * 
+ *
  **********************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
-#include <validar.h>
+#include "headers/validar.h"
 
 
 int main( int argc, char *argv[] )

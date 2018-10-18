@@ -1,9 +1,9 @@
 /***********************************************************************
- * 
+ *
  * Módulo: Implementación de las funciones que verifican y procesan
  *         los parámetros recibidos al programa.
  * Autor:  Martín Aguilar
- *  
+ *
  **********************************************************************/
 
 
@@ -12,8 +12,8 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <string.h>
-#include <validar.h>
-#include <bmp.h>
+#include "../headers/validar.h"
+#include "../headers/bmp.h"
 
 void ayuda()
 {
